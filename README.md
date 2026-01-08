@@ -2,11 +2,11 @@
 
 ## Use Tiktok data to use analyze
 
-ENV
+### ENV
 - Lang: python
 - IDE: colab
 
-class
+### class
 - Inspect_and_analyze_data
 - hypothesis
 - seaborn
@@ -41,10 +41,10 @@ class
 ## 🛠 使用工具與模型
 | 類別 | 使用工具 | 具體功能 |
 | :--- | :--- | :--- |
-| **資料架構** | `Pandas`, `NumPy` | 矩陣運算、資料清理、欄位合併 (concat)。 |
+| **資料架構** | `Pandas`, `NumPy`  | 矩陣運算、資料清理、欄位合併 (concat)。 |
 | **視覺化** | `Matplotlib`, `Seaborn` | 分佈直方圖、熱力圖、特徵重要性圖表。 |
 | **NLP 提取** | `CountVectorizer` | 將雜亂文字轉為數值計數矩陣。 |
-| **核心模型** | `RandomForestClassifier` | 透過多棵決策樹整合，提供穩定且精準的分類。 |
+| **核心模型** | `RandomForestClassifier`,`sklearn` | 透過多棵決策樹整合，提供穩定且精準的分類。 |
 | **進階模型** | `XGBoost` | 利用梯度提升技術追求極致的預測效能。 |
 
 ---
@@ -61,3 +61,4 @@ class
 透過 **Feature Importance (特徵重要性)** 圖表，我們發現：
 - **影片互動數據**（觀看、按讚、分享數）對分類有極高的貢獻度。
 - **NLP 片語特徵** 能有效幫助模型捕捉到隱藏在文字中的「語氣」，從而區分正式報導與日常隨筆。
+
